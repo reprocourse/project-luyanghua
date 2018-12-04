@@ -1,0 +1,29 @@
+1.	File -> Open
+2.	Edit -> Image Properties -> Voxel Size
+	a.	X = 0.066
+	b.	Y = 0.066
+	c.	Z = 0.3
+3.	Edit -> Crop3D
+4.	“Add new filaments” button
+5.	“Track” uncheck
+6.	“Next” button
+7.	“Dendrite starting point diameter” = 2.20um
+8.	“Dendrite seed point diameter” = 0.132um
+9.	“Next” button
+10.	“Dendrite starting points threshold” pull threshold to right
+11.	“Dendrite seed points threshold” pull threshold to right
+12.	“ESC” = select/navigate
+13.	“SHIFT + RIGHT CLICK” = starting point
+14.	“SHIFT + LEFT CLICK” = end point
+15.	“Next” button
+16.	“Next” button
+17.	“Spine seed points diameter” = 0.0880um
+18.	“Spine maximum length” = 2.20um
+19.	“Next” button
+20.	“Spine seed points threshold” pull threshold to right
+21.	“ESC” = select/navigate
+22.	“SHIFT + RIGHT CLICK” = unset spine
+23.	“SHIFT + LEFT CLICK” = set spine
+24.	“Next” button
+25.	“Finish” button
+26.	“Statistics” button

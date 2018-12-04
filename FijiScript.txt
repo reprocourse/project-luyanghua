@@ -1,0 +1,16 @@
+//open directory
+dir="";
+dir=getDirectory("Open Directory");
+
+//create list of files
+list="";
+list=getFileList(dir);
+
+//process files
+for(i=0;i<list.length;i+=1){
+	open(list[i]);
+	//Z Project
+	run("Z Project...", "projection=[Max Intensity]");
+	//Auto Brightness&Contrast
+	run("Enhance Contrast", "saturated=0.35");
+}
